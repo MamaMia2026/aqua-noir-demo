@@ -1,0 +1,240 @@
+<!doctype html>
+<html lang="ro">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<meta name="robots" content="noindex,nofollow">
+<title>Aqua Noir — detailing auto premium</title>
+<meta name="description" content="Machetă demo: studio de detailing auto cu pachete pe mărimea mașinii, programare online, abonament lunar și card cadou.">
+<meta name="theme-color" content="#07090d">
+<link rel="icon" href="favicon.svg" type="image/svg+xml">
+<link rel="preload" href="fonts/unbounded-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="fonts/exo2-latin.woff2" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="img/hero.webp" as="image" fetchpriority="high">
+<link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<a class="skip" href="#programare">Sari la programare</a>
+<div class="demo-bar" role="note">Machetă demo – prețuri, durate și date de exemplu</div>
+
+<header class="hdr" id="hdr"><div class="wrap">
+<a class="logo" href="#acasa"><i aria-hidden="true"></i>Aqua<span>Noir</span></a>
+<a class="btn btn-neon book" href="#programare">Programează</a>
+<button class="menu-btn" type="button" aria-expanded="false" aria-controls="meniu" aria-label="Deschide meniul" data-menu="toggle"><span></span><span></span><span></span></button>
+</div></header>
+
+<nav class="dots" id="meniu" aria-label="Secțiuni">
+<a href="#acasa"><span class="lbl">Început</span></a>
+<a href="#pachete"><span class="lbl">Pachete</span></a>
+<a href="#abonament"><span class="lbl">Abonament</span></a>
+<a href="#programare"><span class="lbl">Programare</span></a>
+<a href="#proces"><span class="lbl">Procesul</span></a>
+<a href="#garantii"><span class="lbl">Garanții</span></a>
+<a href="#card-cadou"><span class="lbl">Card cadou</span></a>
+<a href="#intrebari"><span class="lbl">Întrebări</span></a>
+<a href="#studio"><span class="lbl">Studio</span></a>
+</nav>
+
+<main>
+<section class="hero" id="acasa"><div class="wrap">
+<div class="copy">
+<p class="kick">Studio de detailing · [Oraș]</p>
+<h1>Negru adânc. <em>Luciu</em> de oglindă.</h1>
+<p class="lead">Detailing premium făcut de mână, într-un studio închis și iluminat ca un laborator. Spumă activă, decontaminare, polish și protecție ceramică pentru mașina ta.</p>
+<div class="acts"><a class="btn btn-neon" href="#programare">Alege ora</a><a class="btn btn-ghost" href="#pachete">Vezi pachetele</a></div>
+<ul class="specs"><li><b>3</b><span>pachete</span></li><li><b>9H</b><span>ceramică</span></li><li><b>4</b><span>pași de lucru</span></li></ul>
+</div>
+<figure class="frame">
+<img src="img/hero.webp" alt="" width="720" height="1080" fetchpriority="high" decoding="async">
+<video id="heroVideo" muted loop playsinline preload="none" width="720" height="1080" aria-hidden="true" tabindex="-1"><source data-src="video/hero.webm" type="video/webm"><source data-src="video/hero.mp4" type="video/mp4"></video>
+<figcaption>Spumă activă · pH neutru</figcaption>
+</figure>
+</div></section>
+
+<hr class="hair">
+
+<section id="pachete"><div class="wrap">
+<div class="head"><p class="kick">Pachete</p><h2>Alege mărimea mașinii. Prețul se ajustează pe loc.</h2><p>Lucrăm diferit pe o compactă și pe un van: suprafețe, timpi și consumabile. Vezi direct cât costă și cât durează.</p></div>
+<div class="sizes" role="group" aria-label="Mărimea mașinii">
+<button type="button" data-size="compact" aria-pressed="true">Compactă</button>
+<button type="button" data-size="suv" aria-pressed="false">SUV</button>
+<button type="button" data-size="van" aria-pressed="false">Van</button>
+</div>
+<div class="pk">
+<article><p class="no">01</p><h3>Exterior</h3><p class="desc">Spălare în doi pași, spumă activă și uscare fără zgârieturi.</p>
+<p class="price"><span data-price="ext">190</span><small>lei</small></p><p class="dur">Durată: <span data-dur="ext">1 oră</span></p>
+<ul><li>Prespălare cu spumă activă pH neutru</li><li>Spălare manuală, metoda celor două găleți</li><li>Jante, anvelope și pasaje de roți</li><li>Uscare cu aer și prosoape din microfibră</li></ul>
+<button class="btn btn-ghost" type="button" data-pick="ext">Programează Exterior</button></article>
+<article class="top"><span class="tag">Cel mai ales</span><p class="no">02</p><h3>Interior</h3><p class="desc">Habitaclu curățat în profunzime, ca la livrarea din fabrică.</p>
+<p class="price"><span data-price="int">340</span><small>lei</small></p><p class="dur">Durată: <span data-dur="int">2 ore</span></p>
+<ul><li>Aspirare completă și suflare cu aer</li><li>Curățare cu abur a tapițeriei</li><li>Piele hrănită, plastice mate fără luciu</li><li>Geamuri pe interior, fără urme</li></ul>
+<button class="btn btn-neon" type="button" data-pick="int">Programează Interior</button></article>
+<article><p class="no">03</p><h3>Protecție ceramică</h3><p class="desc">Corecție de lac și strat ceramic 9H, pentru luciu care durează.</p>
+<p class="price"><span data-price="cer">2.400</span><small>lei</small></p><p class="dur">Durată: <span data-dur="cer">6 ore</span></p>
+<ul><li>Decontaminare chimică și cu argilă</li><li>Polish într-un pas, corecție de lac</li><li>Strat ceramic 9H pe caroserie și jante</li><li>Inspecție la lumină și verificare după 30 de zile</li></ul>
+<button class="btn btn-ghost" type="button" data-pick="cer">Programează ceramica</button></article>
+</div>
+<div class="xlist"><h3>Extra-uri, la orice pachet</h3><ul id="extra-list"></ul></div>
+<p class="note">Prețuri și durate de exemplu, cu TVA. În site-ul tău apar tarifele reale.</p>
+</div></section>
+
+<section class="ab-sec" id="abonament"><div class="wrap">
+<div class="head"><p class="kick">Abonament lunar</p><h2>Mașina curată toată luna, la preț mai mic.</h2><p>Spălări Exterior incluse în fiecare lună, programate când îți convine. Economia se calculează față de prețul la bucată, pe mărimea mașinii tale.</p></div>
+<div class="sizes" role="group" aria-label="Mărimea mașinii pentru abonament">
+<button type="button" data-size="compact" aria-pressed="true">Compactă</button>
+<button type="button" data-size="suv" aria-pressed="false">SUV</button>
+<button type="button" data-size="van" aria-pressed="false">Van</button>
+</div>
+<div class="ab">
+<article><h3>2 spălări / lună</h3><p class="price"><span data-ab-price="ab2">320</span><small>lei / lună</small></p>
+<p class="vs">La bucată: <s data-ab-full="ab2">380 lei</s></p><p class="save" data-ab-save="ab2">Economisești 60 lei / lună</p>
+<ul><li>2 spălări Exterior complete</li><li>Programare cu prioritate</li><li>Fără perioadă minimă</li></ul>
+<button class="btn btn-ghost" type="button" data-ab-pick="ab2">Cere abonamentul</button></article>
+<article class="top"><h3>4 spălări / lună</h3><p class="price"><span data-ab-price="ab4">600</span><small>lei / lună</small></p>
+<p class="vs">La bucată: <s data-ab-full="ab4">760 lei</s></p><p class="save" data-ab-save="ab4">Economisești 160 lei / lună</p>
+<ul><li>O spălare Exterior pe săptămână</li><li>Programare cu prioritate</li><li>Fără perioadă minimă</li></ul>
+<button class="btn btn-neon" type="button" data-ab-pick="ab4">Cere abonamentul</button></article>
+</div>
+<p class="note">Cererea de abonament se trimite din formularul de programare. Te sunăm pentru confirmare; plata se face la studio.</p>
+</div></section>
+
+<section class="book-sec" id="programare"><div class="wrap">
+<div class="head"><p class="kick">Programare</p><h2>Alege ziua și ora. Intervalul se potrivește cu pachetul.</h2><p>Orele ocupate sunt tăiate. Extra-urile prelungesc durata, așa că vezi doar orele la care lucrarea se termină înainte de închidere.</p></div>
+<form class="bk" id="rezervare" name="programare" method="POST" data-netlify="true" netlify-honeypot="bot-field" aria-label="Programare la detailing" novalidate>
+<input type="hidden" name="form-name" value="programare">
+<p class="hp" aria-hidden="true"><label>Nu completa: <input name="bot-field" tabindex="-1" autocomplete="off"></label></p>
+<input type="hidden" name="tip_cerere"><input type="hidden" name="pachet"><input type="hidden" name="marime"><input type="hidden" name="extra_uri">
+<input type="hidden" name="zi"><input type="hidden" name="ora"><input type="hidden" name="durata"><input type="hidden" name="total">
+<input type="hidden" name="abonament"><input type="hidden" name="economie"><input type="hidden" name="card_cadou"><input type="hidden" name="rezumat">
+
+<div class="panel">
+<div class="mode" role="radiogroup" aria-label="Ce vrei să trimiți">
+<label><input type="radio" name="ui_tip" value="prog" checked><span>Programare</span></label>
+<label><input type="radio" name="ui_tip" value="ab"><span>Abonament</span></label>
+<label><input type="radio" name="ui_tip" value="card"><span>Card cadou</span></label>
+</div>
+
+<fieldset class="step" data-modes="prog"><legend><b></b>Pachetul</legend><div class="opts">
+<label class="opt"><input type="radio" name="ui_pachet" value="ext" checked><span>Exterior<small data-pk-label="ext"></small></span></label>
+<label class="opt"><input type="radio" name="ui_pachet" value="int"><span>Interior<small data-pk-label="int"></small></span></label>
+<label class="opt"><input type="radio" name="ui_pachet" value="cer"><span>Protecție ceramică<small data-pk-label="cer"></small></span></label>
+</div></fieldset>
+
+<fieldset class="step" data-modes="ab"><legend><b></b>Abonamentul</legend><div class="opts">
+<label class="opt"><input type="radio" name="ui_ab" value="ab2"><span>2 spălări / lună<small data-ab-label="ab2"></small></span></label>
+<label class="opt"><input type="radio" name="ui_ab" value="ab4" checked><span>4 spălări / lună<small data-ab-label="ab4"></small></span></label>
+</div></fieldset>
+
+<fieldset class="step" data-modes="card"><legend><b></b>Cardul cadou</legend><div class="opts" id="card-opts"></div>
+<p class="hint">Valabil <span data-card-valid>12</span> luni. Nu plătești pe site: confirmăm la telefon, iar plata se face la studio sau prin transfer.</p></fieldset>
+
+<fieldset class="step" data-modes="prog ab card" id="step-car"><legend><b></b><span data-car-title>Mașina</span></legend><div class="opts">
+<label class="opt"><input type="radio" name="ui_marime" value="compact" checked><span>Compactă</span></label>
+<label class="opt"><input type="radio" name="ui_marime" value="suv"><span>SUV</span></label>
+<label class="opt"><input type="radio" name="ui_marime" value="van"><span>Van</span></label>
+</div>
+<div class="fields mt" data-modes="prog ab">
+<label><span>Nr. înmatriculare <span class="opt-l">(opțional)</span></span><input name="nr_inmatriculare" autocomplete="off" autocapitalize="characters" placeholder="B 00 ABC"></label>
+<label><span>Marcă și model <span class="opt-l">(opțional)</span></span><input name="marca_model" autocomplete="off" placeholder="ex. Skoda Octavia"></label>
+</div></fieldset>
+
+<fieldset class="step" data-modes="prog"><legend><b></b>Extra-uri <span class="opt-l" style="font:400 13px 'Exo 2',sans-serif;color:var(--muted)">(opțional)</span></legend>
+<div class="xtra" id="f-extra"></div></fieldset>
+
+<fieldset class="step" data-modes="prog ab"><legend><b></b><span data-when-title>Ziua și ora</span></legend>
+<div class="days" id="f-days"></div>
+<p class="sub-lbl" id="slots-lbl">Ora de început</p>
+<div class="slots" id="f-slots" role="radiogroup" aria-labelledby="slots-lbl"></div>
+<p class="hint" id="slot-hint" aria-live="polite"></p></fieldset>
+
+<fieldset class="step" data-modes="prog ab card"><legend><b></b>Datele tale</legend><div class="fields">
+<label>Nume<input name="nume" autocomplete="name" required></label>
+<label>Telefon<input name="telefon" type="tel" autocomplete="tel" inputmode="tel" required></label>
+<label data-modes="card"><span>Pentru cine e cardul <span class="opt-l">(opțional)</span></span><input name="destinatar" autocomplete="off"></label>
+<label class="wide" data-modes="card"><span>Mesaj pe card <span class="opt-l">(opțional)</span></span><textarea name="mesaj" rows="3" maxlength="240"></textarea></label>
+</div></fieldset>
+</div>
+
+<aside class="sum" aria-live="polite">
+<h3 id="s-title">Rezumat</h3>
+<dl id="s-list"></dl>
+<div class="total"><span id="s-total-lbl">Total</span><b id="s-total">190 lei</b></div>
+<button class="btn btn-neon" type="submit" id="s-submit">Trimite programarea</button>
+<button class="btn btn-ghost" type="button" id="s-wa">Trimite pe WhatsApp</button>
+<p class="msg" id="s-msg" role="alert"></p>
+<p class="hint" id="s-foot">Plata se face la predarea mașinii. Prețuri de exemplu.</p>
+</aside>
+
+<div class="thanks" id="thanks" tabindex="-1" hidden>
+<p class="kick">Cerere trimisă</p>
+<h3 id="t-title">Mulțumim!</h3>
+<p id="t-text"></p>
+<dl id="t-list"></dl>
+<button class="btn btn-ghost" type="button" id="t-again">Fă altă cerere</button>
+</div>
+</form>
+</div></section>
+
+<section id="proces"><div class="wrap">
+<div class="head"><p class="kick">Procesul</p><h2>Patru pași, zero grabă.</h2></div>
+<ol class="steps">
+<li><span class="n">01</span><h3>Inspecție la lumină</h3><p>Verificăm lacul sub lămpi de detailing și îți arătăm ce vedem, înainte de orice.</p></li>
+<li><span class="n">02</span><h3>Spumă și decontaminare</h3><p>Spumă activă, apoi argilă și soluții pentru fier și gudron. Lacul rămâne curat la atingere.</p></li>
+<li><span class="n">03</span><h3>Corecție și interior</h3><p>Polish pentru micro-zgârieturi, abur pentru tapițerie și piele hrănită.</p></li>
+<li><span class="n">04</span><h3>Protecție și predare</h3><p>Ceară sau strat ceramic, verificare finală și predarea mașinii, în studio.</p></li>
+</ol>
+<div class="ba">
+<div class="before"><h3>Înainte</h3><ul><li><b>Lac</b><span>Mat, cu micro-zgârieturi circulare la lumină directă</span></li><li><b>Jante</b><span>Praf de frână ars, pete maronii</span></li><li><b>Interior</b><span>Pete pe textil, plastice lucioase și lipicioase</span></li><li><b>Geamuri</b><span>Film gras pe interior, reflexii la soare</span></li></ul></div>
+<div class="after"><h3>După</h3><ul><li><b>Lac</b><span>Reflexie de oglindă, apa se strânge în picături</span></li><li><b>Jante</b><span>Curate și protejate, se spală doar cu apă</span></li><li><b>Interior</b><span>Textil curat, plastice mate, miros neutru</span></li><li><b>Geamuri</b><span>Transparență totală, fără urme</span></li></ul></div>
+</div>
+</div></section>
+
+<section id="garantii" style="padding-top:0"><div class="wrap">
+<div class="head"><p class="kick">Garanțiile noastre</p><h2>Ce primești de fiecare dată.</h2></div>
+<ul class="gar">
+<li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><path d="M4 7h16M4 12h10M4 17h7"/><circle cx="18" cy="16" r="3"/></svg></span><h3>Preț fix, spus dinainte</h3><p>Afli prețul înainte să începem. La predare plătești exact suma comunicată, fără adaosuri.</p></li>
+<li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="12" r="4"/><path d="M12 2v3M12 19v3M2 12h3M19 12h3M5 5l2 2M17 17l2 2M5 19l2-2M17 7l2-2"/></svg></span><h3>Defectele, arătate la lumină</h3><p>Înainte de lucru îți arătăm sub lămpi zgârieturile și petele existente, ca să știi de la ce pornim.</p></li>
+<li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><rect x="4" y="5" width="16" height="15" rx="2"/><path d="M4 10h16M9 3v4M15 3v4M9 15l2 2 4-4"/></svg></span><h3>Verificare gratuită la 30 de zile</h3><p>După protecția ceramică, revii după 30 de zile pentru o verificare a stratului, fără cost.</p></li>
+<li><span class="ic"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.6" aria-hidden="true"><circle cx="12" cy="13" r="8"/><path d="M12 9v4l3 2M9 2h6"/></svg></span><h3>Slotul tău, păstrat 15 minute</h3><p>Dacă întârzii, îți păstrăm locul 15 minute. După aceea încercăm să te mutăm în aceeași zi.</p></li>
+</ul>
+<div class="gplace"><div><b>Review-urile reale de pe Google apar aici</b><p>Spațiu rezervat pentru recenziile clientului, preluate din profilul Google al studioului.</p></div></div>
+</div></section>
+
+<section id="card-cadou" style="padding-top:0"><div class="wrap">
+<div class="head"><p class="kick">Card cadou</p><h2>Un cadou care strălucește.</h2><p>Alegi o valoare fixă sau un pachet întreg. Trimiți cererea, te sunăm, iar cardul îl primești tipărit sau în format PDF. Nu se plătește pe site.</p></div>
+<div class="gift">
+<article><h3>Card valoric</h3><p>O sumă fixă, folosită la orice pachet sau extra.</p><ul class="chips" id="gift-values"></ul>
+<button class="btn btn-ghost" type="button" data-card-pick="v500">Cere card valoric</button></article>
+<article><h3>Card pe pachet</h3><p>Un pachet anume, pe mărimea mașinii celui care îl primește.</p><ul class="chips" id="gift-packs"></ul>
+<button class="btn btn-neon" type="button" data-card-pick="p-int">Cere card pe pachet</button></article>
+</div>
+<p class="note">Valabil <span data-card-valid>12</span> luni de la emitere.</p>
+</div></section>
+
+<section id="intrebari" style="padding-top:0"><div class="wrap">
+<div class="head"><p class="kick">Întrebări</p><h2>Înainte să vii.</h2></div>
+<div class="faq">
+<details open><summary>Cât timp rezistă protecția ceramică?</summary><p>Până la 2–3 ani, în funcție de întreținere și de cum e spălată mașina. Primești instrucțiuni de întreținere și o verificare gratuită după 30 de zile.</p></details>
+<details><summary>Pot aștepta mașina în studio?</summary><p>Da, la pachetele Exterior și Interior ai o zonă de așteptare cu cafea și Wi-Fi. La ceramică, te anunțăm când mașina e gata.</p></details>
+<details><summary>Ce se întâmplă dacă întârzii?</summary><p>Îți păstrăm locul 15 minute. După aceea, încercăm să mutăm programarea în aceeași zi, dacă mai sunt ore libere.</p></details>
+<details><summary>Lucrați și cu mașini foarte murdare?</summary><p>Da. Pentru păr de animale sau miros persistent ai extra-urile de la programare, cu prețul afișat înainte. Pentru noroi uscat sau mucegai îți spunem prețul la telefon, înainte să începem.</p></details>
+<details><summary>Cum funcționează abonamentul?</summary><p>Alegi 2 sau 4 spălări Exterior pe lună și le programezi când vrei, în programul studioului. Plătești lunar, la studio, și poți renunța oricând.</p></details>
+</div>
+</div></section>
+
+<section id="studio" style="padding-top:0"><div class="wrap ct">
+<div class="box"><p class="kick">Studio</p><h3 style="margin-top:16px">Te așteptăm în [Oraș]</h3><a class="tel" href="tel:+40700000000">0700 000 000</a><p>Suni sau scrii, iar noi îți confirmăm programarea în câteva minute.</p><a class="btn btn-ghost" data-wa href="https://wa.me/40700000000" target="_blank" rel="noopener">Scrie-ne pe WhatsApp</a></div>
+<div class="box"><h3>Adresă și program</h3><dl id="program"><dt>Adresă</dt><dd>Str. Exemplu nr. 12, [Oraș]</dd></dl></div>
+</div></section>
+</main>
+
+<footer class="foot"><div class="wrap">
+<div class="row"><p>© Aqua Noir Detailing SRL (date de exemplu) · CUI RO00000000 · J00/0000/2026 · Str. Exemplu nr. 12, [Oraș]</p><a class="top" href="#acasa">Înapoi sus ↑</a></div>
+<div class="row cw"><p>Machetă demo · Site realizat de CristianWeb</p><a href="https://cristianweb.ro" rel="noopener">Vreau un site ca acesta →</a></div>
+</div></footer>
+
+<nav class="dock" aria-label="Contact rapid"><a class="d-call" href="tel:+40700000000">Sună</a><a class="d-wa" data-wa href="https://wa.me/40700000000" target="_blank" rel="noopener">WhatsApp</a></nav>
+<script src="js/data.js" defer></script>
+<script src="js/app.js" defer></script>
+</body>
+</html>
